@@ -1,7 +1,13 @@
-//Nhap so nguyen a tu ban phim
-let a = prompt("Nhap so nguyen a");
-//Nhap so nguyen b tu ban phim
-let b = prompt("Nhap so nguyen b");
+// nhập số a từ bàn phím
+
+let a = prompt("Mời bạn nhập số nguyên a:"); // let a1= parseInt(a);
+
+// nhập b từ bàn phím
+let b = prompt("Mời bạn nhập số nguyên b:");
+
 let c = parseInt(a) + parseInt(b);
+//in ra màn hình
+
 document.write(c);
+// show giá trị biến
 console.log(c);
