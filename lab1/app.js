@@ -1,13 +1,11 @@
-// nhập số a từ bàn phím
+//Nhập vào 2 số nguyên a và b từ bàn phím
+let a = parseInt(prompt("Nhập số nguyên a: "));
+let b = parseInt(prompt("Nhập số nguyên b: "));
 
-let a = prompt("Mời bạn nhập số nguyên a:"); // let a1= parseInt(a);
+//Tính tổng c của a và b (c = a + b)
+let c = a + b;
 
-// nhập b từ bàn phím
-let b = prompt("Mời bạn nhập số nguyên b:");
+//In ra kết quả đồng thời bằng 2 cách
+document.write("Tổng của " + a + " và " + b + " là: " + c);
 
-let c = parseInt(a) + parseInt(b);
-//in ra màn hình
-
-document.write(c);
-// show giá trị biến
-console.log(c);
+console.log("Tổng của " + a + " và " + b + " là: " + c);
